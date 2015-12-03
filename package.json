@@ -1,0 +1,24 @@
+{
+  "name": "architect-digraph",
+  "version": "1.0.0",
+  "description": "Create digraphs from architect configuration files",
+  "main": "digraph.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janjongboom/architect-digraph.git"
+  },
+  "keywords": [
+    "architect",
+    "digraph"
+  ],
+  "author": "Jan Jongboom <janjongboom@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/janjongboom/architect-digraph/issues"
+  },
+  "homepage": "https://github.com/janjongboom/architect-digraph#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "es6-promisify": "^3.0.0"
+  }
+}
