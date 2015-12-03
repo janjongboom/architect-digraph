@@ -1,6 +1,6 @@
 {
   "name": "architect-digraph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create digraphs from architect configuration files",
   "main": "digraph.js",
   "repository": {

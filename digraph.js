@@ -7,8 +7,8 @@ if (!process.argv[2]) {
   throw 'Pass in your architect config file as parameter to architect-digraph';
 }
 
-var configFolder = Path.dirname(process.argv[2]);
-var config = process.argv[2];
+var config = Path.join(process.cwd(), process.argv[2]);
+var configFolder = Path.dirname(config);
 
 co.wrap(function*() {
   try {
